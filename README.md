@@ -1,6 +1,13 @@
-# ThetasTrace
+# Theta's Trace
 
-a demo project for combining electron, angular, and p5
+A demo project for combining electron, angular, and p5.  The rest of this documentation is auto-generated via Angular.
+
+## Don't forget!
+
+`npm install electron --save-dev`
+`npm install p5 --save-dev` 
+
+## The rest
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.2.
 
