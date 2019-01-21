@@ -2,7 +2,7 @@
 
 A demo project for combining electron, angular, and p5.  The rest of this documentation is auto-generated via Angular.
 
-## Don't forget!
+## Dependencies for this project:
 
 `npm install electron --save-dev`
 `npm install p5 --save-dev` 
