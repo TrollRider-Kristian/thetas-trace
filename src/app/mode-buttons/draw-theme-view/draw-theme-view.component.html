@@ -1,0 +1,8 @@
+<ul class="draw-buttons">
+  <li [class.active]="typeofDrawing == 'creature'"><a (click)="changeDrawingType('creature')">View as Creature</a></li>
+  <li [class.active]="typeofDrawing == 'map'"><a (click)="changeDrawingType('map')">View as Map</a></li>
+</ul>
+<div [ngSwitch]="typeofDrawing">
+  <div *ngSwitchCase="'creature'">Drawing a creature...</div>
+  <div *ngSwitchCase="'map'">Drawing a map...</div>
+</div>

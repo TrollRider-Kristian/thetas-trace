@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/thetas-trace",
+            "outputPath": "dist",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -25,7 +25,11 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/p5/lib/p5.js",
+              "node_modules/p5/lib/addons/p5.sound.js",
+              "node_modules/p5/lib/addons/p5.dom.js"
+            ]
           },
           "configurations": {
             "production": {
