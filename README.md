@@ -1,6 +1,6 @@
 # Theta's Trace
 
-A demo project for combining electron, angular, and p5.  The rest of this documentation is auto-generated via Angular.
+A demo project for combining electron, angular, and p5.  The rest of this documentation is auto-generated via Angular.  Please do not commit the package-lock file to this repo.
 
 ## Dependencies for this project:
 
@@ -13,7 +13,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+If checking out code for the first time, run `npm install`.  Otherwise, run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.  You may choose to run this in a different port by specifying --port in `ng serve --port ...`, where `...` is the desired port number.
 
 ## Code scaffolding
 
